@@ -8,6 +8,7 @@
 
 body{
     font-family: montserrat;
+    
 }
 nav{
     background-color: #2A004E;
@@ -368,8 +369,16 @@ ul a {
     width: 100%;
     display: flex;
     justify-content: center;
+   
 }
 
+.banner3 img{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 600px;  
+}
 
 
 /* end pedigiri css */
@@ -613,8 +622,118 @@ ul a {
   
 }
 
-
-
 }
 
 
+                            /* form section */
+
+
+
+
+
+
+.fmain {
+    font-family: Arial, sans-serif,montserrat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2A004E;
+    margin: 0;
+}
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+.form-container h2 {
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 480px) {
+    .form-container {
+        width: 90%;
+    }
+}
+
+
+
+
+               /* oder done .pages */
+
+ .oder1{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+.order-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+.order-container h2 {
+    color: #28a745;
+}
+.order-container p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.home-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.home-btn:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 480px) {
+    .order-container {
+        width: 90%;
+    }
+}
+
+
+            
